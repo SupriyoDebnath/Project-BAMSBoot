@@ -1,0 +1,9 @@
+spring:
+  main:
+    banner-mode: console
+  data.mongodb:
+    uri: mongodb://MongoAdmin:MongoAdmin1001@10.0.0.230:27017/AvengersPortalDB?authSource=AuthDB
+server:
+  address: 10.0.0.230
+  port: 8090
+  error.path: /error
