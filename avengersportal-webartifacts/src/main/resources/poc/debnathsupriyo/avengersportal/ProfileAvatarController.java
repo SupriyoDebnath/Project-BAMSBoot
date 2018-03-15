@@ -40,7 +40,6 @@ public class ProfileAvatarController {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getProfileAvatarBase64Encoded(@QueryParam("avatarId") String profileAvatarName) {
 		
-		//String locationURI = "/CodeFights/MyFirstBAMBootProject-AvengersPortal/avengersportal-webartifacts/src/main/webapp/avatars/";
 		String locationURI = "/customdir/avengersportal/avatars/";
 		String base64EncodedImage = "";
 		File profileAvatar = new File(locationURI+profileAvatarName);
@@ -79,7 +78,6 @@ public class ProfileAvatarController {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response saveProfileAvatar(@FormDataParam("avatar") InputStream requestData, @FormDataParam("avatar") FormDataContentDisposition requestMetaData) {
 		
-		//String locationURI = "/CodeFights/MyFirstBAMBootProject-AvengersPortal/avengersportal-webartifacts/src/main/webapp/avatars/";
 		String locationURI = "/customdir/avengersportal/avatars/";
 		
 		String profileAvatarId = UUID.randomUUID().toString();
