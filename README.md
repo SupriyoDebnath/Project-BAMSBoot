@@ -1,8 +1,6 @@
 # Project-BAMSBoot
 A Full Stack UX Design using Bootstrap, Angular, MongoDB and Spring Boot. Application Runs in AWS.
 
-[Click here to Get the Experience](http://Riyo14-LB-48091037.ap-south-1.elb.amazonaws.com/avengersportal-webartifacts/)
-
 ## Prerequisite
 
 1. [AngularJS](https://angularjs.org/)
@@ -20,15 +18,15 @@ To remove dependency of JSP or Strut Based Web Developments and De-Couple the Fr
 
 ## Deployement Guide
 
-* > Create JAR for **avengersportal-apifactory** using Maven Build
-* > Create WAR for **avengersportal-webartifacts** using Maven Build
-* > Create Account in **Amazon Web Services**
-* > Create **VPC**, **Security Group** & **EC2** instance using your favourite Operating System in AWS Account
-* > Install **Mongo DB**
-* > Install **Oracle JDK 1.8**
-* > Install **Apache Tomcat WebServer**
-* > Copy the **JAR** file to your EC2 Instance and start it executing using JAVA command
-* > Copy the **WAR** file to your EC2 Instance and deploy it to tomcat from manager portal
-* > Create Load Balancer for your **VPC** to provide public access to your resources running inside **EC2**
+> * Create JAR for **avengersportal-apifactory** using Maven Build
+> * Create WAR for **avengersportal-webartifacts** using Maven Build
+> * Create Account in **Amazon Web Services**
+> * Create **VPC**, **Security Group** & **EC2** instance using your favourite Operating System in AWS Account
+> * Install **Mongo DB**
+> * Install **Oracle JDK 1.8**
+> * Install **Apache Tomcat WebServer**
+> * Copy the **JAR** file to your EC2 Instance and start it executing using JAVA command
+> * Copy the **WAR** file to your EC2 Instance and deploy it to tomcat from manager portal
+> * Create Load Balancer for your **VPC** to provide public access to your resources running inside **EC2**
 
 ## Guess What! You are all set to go
